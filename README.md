@@ -10,19 +10,6 @@ This project is a secure REST API built using **Java Spring Boot** that allows u
 - ✅ Uses Basic Authentication
 
 ---
-
-## 🔥 Features
-
-- ✅ User Registration  
-- ✅ User Login  
-- ✅ Secure Authentication  
-- ✅ Get Logged-In User Profile  
-- ✅ Update Profile (Name or Bio or Username)  
-- ✅ PostgreSQL Database Integration  
-- ✅ Follows Clean Architecture (DTOs, Services, Controllers)  
-- 🔜 More features coming soon...
-
----
 ## 📌 API Endpoints
 
 > All routes are protected (except signup/login) using Basic Auth
@@ -36,23 +23,21 @@ This project is a secure REST API built using **Java Spring Boot** that allows u
 
 ✅ **Partial updates supported** – you can send just `name`, `bio`,`username` or all together in the PUT request JSON.
 
-Example PUT body:
-```json
-{
-  "username": "New UserName",
-  "name": "New Name",
-  "bio": "New bio here"
-}
+## 🔥 Features
 
-
-
-### 🛠️ To Do
-- [ ] Add profile picture upload
-- [ ] Add JWT authentication
-- [ ] Add user search and followers
-- [ ] Add Messaging
+- ✅ User Registration  
+- ✅ User Login  
+- ✅ Secure Authentication  
+- ✅ Get Logged-In User Profile  
+- ✅ Update Profile (Name or Bio or Username)  
+- ✅ PostgreSQL Database Integration  
+- ✅ Follows Clean Architecture (DTOs, Services, Controllers)  
+- 🔜 More features coming soon...
 
 ---
+
+
+
 
 Feel free to contribute and give a ⭐ if you like the project!
 
